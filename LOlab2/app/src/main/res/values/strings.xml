@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">LOlab2</string>
+    <string name="name">Name:</string>
+    <string name="enter_name">Enter name</string>
+    <string name="surename">Surename:</string>
+    <string name="enter_surename">Enter surename</string>
+    <string name="score_number">Score number:</string>
+    <string name="enter_score_number">Enter score number (5-15)</string>
+    <string name="score">Score</string>
+    <string name="calculate_average">Calculate average</string>
+    <string name="super_text">Super :)</string>
+    <string name="average">"Average: "</string>
+    <string name="this_time">This time it didn\'t go well</string>
+    <string name="you_pass">Congratulations! You pass!</string>
+    <string name="you_not_pass">I\'m applying for conditional pass</string>
+    <string name="returnx">Return</string>
+    <string-array name="subject">
+        <item>Subject1</item>
+        <item>Subject2</item>
+        <item>Subject3</item>
+        <item>Subject4</item>
+        <item>Subject5</item>
+        <item>Subject6</item>
+        <item>Subject7</item>
+        <item>Subject8</item>
+        <item>Subject9</item>
+        <item>Subject10</item>
+        <item>Subject11</item>
+        <item>Subject12</item>
+        <item>Subject13</item>
+        <item>Subject14</item>
+        <item>Subject15</item>
+    </string-array>
+
+</resources>

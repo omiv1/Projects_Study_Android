@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/urlLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adres:" />
+
+    <EditText
+        android:id="@+id/urlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/urlLabel"
+        android:layout_alignBaseline="@id/urlLabel"
+        android:layout_marginStart="16dp"
+        android:hint="Enter URL"
+        android:text="https://cdn.kernel.org/pub/linux/kernel/v5.x/patch-5.1.1.xz" />
+
+    <Button
+        android:id="@+id/fetchInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/urlEditText"
+        android:layout_marginTop="16dp"
+        android:text="Pobierz informacje" />
+
+    <TextView
+        android:id="@+id/fileSizeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fetchInfoButton"
+        android:layout_marginTop="16dp"
+        android:text="Rozmiar pliku:" />
+
+    <TextView
+        android:id="@+id/fileSizeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/fileSizeLabel"
+        android:layout_alignBaseline="@id/fileSizeLabel"
+        android:layout_marginStart="16dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/fileTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fileSizeLabel"
+        android:layout_marginTop="16dp"
+        android:text="Typ pliku:" />
+
+    <TextView
+        android:id="@+id/fileTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/fileTypeLabel"
+        android:layout_alignBaseline="@id/fileTypeLabel"
+        android:layout_marginStart="16dp"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fileTypeLabel"
+        android:layout_marginTop="16dp"
+        android:text="Pobierz plik" />
+
+    <TextView
+        android:id="@+id/progressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/downloadButton"
+        android:layout_marginTop="16dp"
+        android:text="Ilość pobranych bajtów: 0" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressTextView"
+        android:layout_marginTop="16dp"
+        android:progress="0"
+        android:max="100"
+        android:visibility="visible" />
+
+</RelativeLayout>

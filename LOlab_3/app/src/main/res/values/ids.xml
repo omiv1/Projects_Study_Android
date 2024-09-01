@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pierwsza_opcja" type="id"/>
+    <item name="druga_opcja" type="id"/>
+    <item name="existing_option_1" type="id"/>
+    <item name="existing_option_2" type="id"/>
+    <item name="wiersz1" type="id"/>
+    <item name="etykieta1" type="id"/>
+    <item name="edycja1" type="id"/>
+    <item name="wiersz2" type="id"/>
+    <item name="etykieta2" type="id"/>
+    <item name="etykieta3" type="id"/>
+    <item name="etykieta4" type="id"/>
+    <item name="my_itemd1" type="id"/>
+</resources>

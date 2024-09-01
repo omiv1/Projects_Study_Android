@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LOlab_3</string>
+    <string name="napis">w1</string>
+    <string name="title_activity_insert">InsertActivity</string>
+    <string name="web_site">strona WWW</string>
+    <string name="save">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+</resources>

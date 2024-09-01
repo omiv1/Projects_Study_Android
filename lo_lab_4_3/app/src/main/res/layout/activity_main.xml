@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/urlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter URL"
+        android:text="https://cdn.kernel.org/pub/linux/kernel/v5.x/patch-5.1.1.xz" />
+    <Button
+        android:id="@+id/fetchInfoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pobierz informacje"/>
+
+    <TextView
+        android:id="@+id/fileInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Info"/>
+
+    <Button
+        android:id="@+id/downloadFileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pobierz plik"/>
+
+</LinearLayout>

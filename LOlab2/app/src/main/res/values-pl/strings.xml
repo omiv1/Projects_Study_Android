@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LOlab2</string>
+    <string name="name">Imie:</string>
+    <string name="enter_name">Wpisz imie</string>
+    <string name="surename">Nazwisko:</string>
+    <string name="enter_surename">Wpisz nazwisko</string>
+    <string name="score_number">Liczba ocen:</string>
+    <string name="enter_score_number">Podaj liczbę ocen (5–15)</string>
+    <string name="score">Oceny</string>
+    <string name="calculate_average">Oblicz średnią</string>
+    <string name="super_text">Super :)</string>
+    <string name="average">"Srednia: "</string>
+    <string name="this_time">Tym razem nie poszło za dobrze</string>
+    <string name="you_pass">Gratulacje! Otrzymujesz zaliczenie!</string>
+    <string name="you_not_pass">Wysyłam podanie o zaliczenie warunkowe</string>
+    <string name="returnx">Powrot</string>
+    <string-array name="subject">
+        <item>Przedmiot1</item>
+        <item>Przedmiot2</item>
+        <item>Przedmiot3</item>
+        <item>Przedmiot4</item>
+        <item>Przedmiot5</item>
+        <item>Przedmiot6</item>
+        <item>Przedmiot7</item>
+        <item>Przedmiot8</item>
+        <item>Przedmiot9</item>
+        <item>Przedmiot10</item>
+        <item>Przedmiot11</item>
+        <item>Przedmiot12</item>
+        <item>Przedmiot13</item>
+        <item>Przedmiot14</item>
+        <item>Przedmiot15</item>
+    </string-array>
+</resources>
